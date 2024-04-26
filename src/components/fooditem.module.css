@@ -1,0 +1,42 @@
+.container {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.1);
+  margin: 25px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.item {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.itemtitle {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #393e46;
+}
+
+.viewButton {
+  background-color: #29bb89;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.buttonContainer {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
